@@ -1,0 +1,413 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmc58708lwvDyGifBsTKmEyvbeGVqANq2INg&s');
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat; /* Ensures the image does not repeat */
+    font-family: Arial, sans-serif; /* Example font family */
+    color: black; 
+}
+
+/* Max-width container */
+.max-width {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar */
+.navbar {
+        padding: 10px 0;
+}
+
+.navbar .max-width {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo a {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar .menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar .menu li {
+    margin-right: 20px;
+}
+
+.navbar .menu li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    color: grey;
+}
+
+/* Sections */
+section {
+    padding: 80px 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: black;
+}
+
+/* Home Section */
+.home {
+    
+    color:black;
+    text-align: center;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px);
+margin-bottom: -71px;
+}
+
+.home-content .text-1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.home-content .text-2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.home-content .text-3 {
+    font-size: 1.5rem;
+ margin-bottom: 0px;
+
+}
+
+/* About Section */
+.about {
+        color: #333;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.about-content .column {
+    flex: 3;
+}
+
+.about-content img {
+    max-width: 100%;
+    border-radius: 10%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-content .text {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+
+
+/* Projects Section */
+.projects {
+        color: #333;
+    text-align: center;
+}
+
+.projects-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.project {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+        padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.project h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Skills Section */
+.skills {
+       color: #333;
+    text-align: center;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+font-size: 0.9rem;
+
+}
+
+.column {
+    flex: 1;
+}
+
+.skill {
+    margin-bottom: 8px;
+}
+
+.skill h3 {
+    font-size: 3 rem;
+    margin-bottom: 2px;
+}
+
+/* Certificates Section */
+.certificates {
+        color: #333;
+    text-align: center;
+}
+
+.certificates-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.certificate {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+        padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.certificate img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.certificate h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.certificate p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Experience Section */
+.experience {
+        color: #333;
+    text-align: center;
+
+}
+
+.experience-content {
+    margin-top: 50px;
+font-size: 40%;
+
+}
+
+.job {
+    margin-bottom: 70px;
+}
+
+.job h3 {
+    font-size: 1.9rem;
+    margin-bottom: 5px;
+}
+
+.job h4 {
+    color: black;
+font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.job .period {
+    font-size: 0.9rem;
+    color: black;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+/* Contact Section */
+.contact {
+    
+    color: #333;
+    text-align: center;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.icons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icons .row {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons .row i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+form {
+        padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+       color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.resume-btn {
+       padding: 20px 20px;
+text-align: right;
+       color: black;
+    text-decoration: none;
+border: 1px solid black;
+    border-radius: 500px;
+   font-size: 15px; 
+    transition: background-color 0.3s ease;
+}
+
+.resume-btn:hover {
+    background-color: #D3D3D3;
+border-radius: 650px;
+align: right;
+}
+
+.btn {
+   padding: 20px 20px;
+text-align: right;
+       color: black;
+    text-decoration: none;
+border: 1px solid black;
+    border-radius: 500px;
+   font-size: 15px; 
+    transition: background-color 0.3s ease;
+   margin-top: -940px;
+
+
+
+background-color: #008cba;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 30px;
+            border: none;
+            border-radius: 930px;
+            transition: all 0.6s ease;
+            cursor: pointer;
+
+
+  }
+.btn:hover {
+   background-color: #D3D3D3;
+border-radius: 650px;
+align: right;
+ margin-top: -940px;
+padding: 20px 40px;
+            font-size: 18px;
+}
+
+.btnexp {
+text-align: center;
+       
+    font-size: 16px;
+border: 1px solid black;
+border-radius: 5px;
+background-color: #E5E4E2;
+
+
+    transition: background-color 0.6s ease;
+}
+.btnexp:hover {
+   background-color: #C0C0C0;
+border-radius: 5px;
+align: right;
+
+}
+
